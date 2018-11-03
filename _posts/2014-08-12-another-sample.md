@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Draft
-published: false
+published: true
 categories:
 - blog
 ---
