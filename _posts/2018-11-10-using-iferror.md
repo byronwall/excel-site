@@ -3,6 +3,8 @@ layout: post
 title: Using the `IFERROR` function
 categories:
   - blog
+notes:
+  - //TODO add usage details for IFERROR
 ---
 
 # Using the `IFERROR` function
