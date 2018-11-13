@@ -3,7 +3,6 @@ layout: post
 title: Improving the speed of array formulas
 categories:
   - blog
-notes: -
 ---
 
 # Improving the speed of array formulas

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using the `AGGREGATE` function
+title: Dangers within a filtered list
 categories:
   - blog
 notes:
