@@ -1,7 +1,11 @@
 {
     "cSpell.words": [
         "COUNTA",
+        "Excel's",
         "IFERROR",
-        "SUMIF"
+        "ISNUMBER",
+        "ISTEXT",
+        "SUMIF",
+        "VLOOKUP"
     ]
 }
