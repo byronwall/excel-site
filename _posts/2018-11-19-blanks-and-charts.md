@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Removing duplicates
+title: Blanks and Charts
 categories:
   - blog
 notes:
@@ -9,7 +9,7 @@ notes:
   - // TODO spell check
 ---
 
-# Dealing with blank data in a chart
+# Blanks and Charts
 
 Pro Tip: use `#N/A!` to tell Excel to not plot a blank cell in a chart. All other options will plot a `0` instead.
 
