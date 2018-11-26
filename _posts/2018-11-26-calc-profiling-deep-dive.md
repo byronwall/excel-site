@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COMING SOON: Calculation Profiling Deep Dive
+title: COMING SOON... Calculation Profiling Deep Dive
 categories:
   - blog
 notes:
