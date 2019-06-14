@@ -14,7 +14,7 @@ Pro Tip: Use `AVERAGE(INDEX:INDEX)` to create a moving average of data that is c
 
 Moving averages are one of the bed rock techniques of processing data. They are useful for removing noise, determining a seasonal average, and generally cleaning up data. The downside of moving averages in Excel is that you generally end up making a new set of formulas every time. The problem comes down to the `window` that is used for a moving average. A window is the number of data points to include in the average. For a moving average, you can either have a window that looks backwards or that is centered and includes data before and after the current point. If you work with real time data, you can only have centered moving averages by delaying the calculation. On the flipside, for data that is already collected, you will introduce a phase shift with a non-centered moving average. That phase shift will be dependent on the window of the data.
 
-For these reasons, I always use a centered moving average when working with non-real time data. This makes it possible to change the window size without worrying about shifitng data relative to other data.
+For these reasons, I always use a centered moving average when working with non-real time data. This makes it possible to change the window size without worrying about shifting data relative to other data.
 
 So, how do we actually make the average? The easiest approach is to use `AVERAGE(RANGE)` where `RANGE` is centered on the current point and includes `N` cells on either side. For example, you want a window of 3 and the current point is at `B5`, you will do `AVERAGE(B2:B8)`. If you use relative references (no dollar signs), you can copy that formula down through your data. The downside of this approach is multi-fold:
 
@@ -24,7 +24,7 @@ So, how do we actually make the average? The easiest approach is to use `AVERAGE
 
 For the final issue, use `AGGREGATE`.
 
-For the first 2 issues, you need to decide how to handle the problem. The biggest decision is how often you want to change the window or how often the size of the data changes. If you want to change the window or the data size, you will need to use dynamic ranges. A dynamic range is one where your provide the parameters to the range as inputs instead of selectiojn the range size ahead of time.
+For the first 2 issues, you need to decide how to handle the problem. The biggest decision is how often you want to change the window or how often the size of the data changes. If you want to change the window or the data size, you will need to use dynamic ranges. A dynamic range is one where your provide the parameters to the range as inputs instead of selection the range size ahead of time.
 
 To make the dynamic range, you will use a combination of `INDEX` and `ROW`. `INDEX` allows you to create a reference using dynamic inputs. `ROW` gives you information about the spreadsheet allowing you to define the index.
 

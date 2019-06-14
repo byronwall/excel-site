@@ -11,7 +11,7 @@ notes:
 
 Pro Tip: use `LEFT`, `RIGHT` and `MID` to extract parts of your text.
 
-Extracting a subset of text is a common task when working with text. It's so common that Excel provides 3 functions for the most common operations. The 3 functions allow you to extract text from the start, end or middle of a string. These functions are quite helpful when you have text that is fixed width. That is, when you have text which is structured the same across multiple cells. Social seucirt numbers are a common example, but it could just as easily be a functional location from an SAP export.
+Extracting a subset of text is a common task when working with text. It's so common that Excel provides 3 functions for the most common operations. The 3 functions allow you to extract text from the start, end or middle of a string. These functions are quite helpful when you have text that is fixed width. That is, when you have text which is structured the same across multiple cells. Social security numbers are a common example, but it could just as easily be a functional location from an SAP export.
 
 ```txt
 =LEFT("text", 2)

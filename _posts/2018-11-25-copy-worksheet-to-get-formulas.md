@@ -11,7 +11,7 @@ notes:
 
 Pro Tip: copy an entire worksheet and extract a difficult formula instead of trying to copy it.
 
-You've got a very nice spreadsheet with some pretty nasty formulas. They are contained within a column of data but go here there and everywhere else in between. You know that if you just copy the formulas, they will re-reference and breka themsleves. You also know that they are not using dollar sign references correctly... since you never expected to copy them. The solution:
+You've got a very nice spreadsheet with some pretty nasty formulas. They are contained within a column of data but go here there and everywhere else in between. You know that if you just copy the formulas, they will re-reference and breka themselves. You also know that they are not using dollar sign references correctly... since you never expected to copy them. The solution:
 
 1. Copy the worksheet.
 2. Insert a column to move the formulas where you want them.

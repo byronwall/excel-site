@@ -11,7 +11,7 @@ notes:
 
 Pro Tip: get comfortable using `BOOLEAN` results in formulas. You can go a long distance in a complicated spreadsheet using simple booleans for control.
 
-One of the simplest ways to make a speadsheet complex is to start adding some logic with simple logic formulas. The logic functions do some evaluation and return a `BOOLEAN` value, `TRUE` or `FALSE`. Sometimes the result is useful but typically you will then feed that result into `IF` to get a different result depending on the previous result. One thing that is not always obvious to people is that you can have Excel work with boolean values directly. An example:
+One of the simplest ways to make a spreadsheet complex is to start adding some logic with simple logic formulas. The logic functions do some evaluation and return a `BOOLEAN` value, `TRUE` or `FALSE`. Sometimes the result is useful but typically you will then feed that result into `IF` to get a different result depending on the previous result. One thing that is not always obvious to people is that you can have Excel work with boolean values directly. An example:
 
 ```txt
 =IF(A1>1, TRUE, FALSE)
