@@ -22,4 +22,4 @@ When working with strings, the biggest issue is usually formatting. This is one 
 =A1 & B2 & C2
 ```
 
-The other major issue with strings is wanting to join together a range of cells into a single string. Excel provides no simple way to do this that takes the range as an argumnet. To do this, you will need to use VBA and a UDF which can join together the items. My bUTL addin has a couple of functions to help with that.
+The other major issue with strings is wanting to join together a range of cells into a single string. Excel provides no simple way to do this that takes the range as an argument. To do this, you will need to use VBA and a UDF which can join together the items. My bUTL addin has a couple of functions to help with that.

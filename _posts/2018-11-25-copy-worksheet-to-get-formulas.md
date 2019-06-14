@@ -19,6 +19,6 @@ You've got a very nice spreadsheet with some pretty nasty formulas. They are con
 4. Copy/paste the entire column on the new sheet back to the old sheet
 5. Voila
 
-This trick works because Excel will not update references when copying cells across worksheets. This means you will get the formuals exactly as before without having ot go add dollar signs everywhere.
+This trick works because Excel will not update references when copying cells across worksheets. This means you will get the formuals exactly as before without having to go add dollar signs everywhere.
 
-There is some version of this trick that works for nearly all formulas copy/paste issues. The trick is usually thinking through how the re-reference will happen to work out the best steps. Sometimes, it's not possible to get dollar signs that do everyting exactly right. This tool shoudl alwyas be in your box.
+There is some version of this trick that works for nearly all formulas copy/paste issues. The trick is usually thinking through how the re-reference will happen to work out the best steps. Sometimes, it's not possible to get dollar signs that do everything exactly right. This tool should always be in your box.

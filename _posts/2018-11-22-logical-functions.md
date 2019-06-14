@@ -11,7 +11,7 @@ notes:
 
 Pro Tip: get comfortable using `BOOLEAN` results in formulas. You can go a long distance in a complicated spreadsheet using simple booleans for control.
 
-One of the simplest ways to make a speadsheet complex is to start adding some logic with simple logic formulas. The logic functions do some evaluation adn return a `BOOLEAN` value, `TRUE` or `FALSE`. Sometimes the result is useful but typically you will then feed that result into `IF` to get a different result depending on the previous result. One thing that is not always obvious to people is that you can have Excel work with boolean values directly. An example:
+One of the simplest ways to make a speadsheet complex is to start adding some logic with simple logic formulas. The logic functions do some evaluation and return a `BOOLEAN` value, `TRUE` or `FALSE`. Sometimes the result is useful but typically you will then feed that result into `IF` to get a different result depending on the previous result. One thing that is not always obvious to people is that you can have Excel work with boolean values directly. An example:
 
 ```txt
 =IF(A1>1, TRUE, FALSE)
@@ -25,7 +25,7 @@ I've seen that type of formula countless times. The user wants to keep track of 
 =A1>1
 ```
 
-It looks a little odd at first but Excel will interpret that formula as wanting to return a boolean vlaue. Your cell will then contain `TRUE` or `FALSE`. Depending on waht you want to do with teh result, you can use the boolena directly or with modification. The boolena cna be used directly in an `IF` in a different cell. You can also use them for math; Excel typically treats `FALSE` as `0` and `TRUE` as `1`.
+It looks a little odd at first but Excel will interpret that formula as wanting to return a boolean value. Your cell will then contain `TRUE` or `FALSE`. Depending on what you want to do with the result, you can use the boolena directly or with modification. The boolena can be used directly in an `IF` in a different cell. You can also use them for math; Excel typically treats `FALSE` as `0` and `TRUE` as `1`.
 
 The most useful logic functions I use:
 
